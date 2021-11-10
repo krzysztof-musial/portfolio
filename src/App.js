@@ -9,7 +9,7 @@ const App = () => {
     <Router>
       <div className="bg-portfolio-back text-portfolio-white">
         <main
-          className="w-full max-w-screen-md min-h-screen m-auto grid gap-8 p-4 sm:p-8"
+          className="w-full max-w-screen-lg min-h-screen m-auto grid gap-8 p-4 sm:p-8"
           style={{ gridTemplateRows: 'min-content auto min-content' }}
         >
           <div>
