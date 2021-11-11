@@ -6,7 +6,7 @@ import Thumbnail from '../components/Thumbnail'
 const Home = () => {
     return (
         <div className="py-8 flex flex-col space-y-12 items-center">
-            <div  className="w-full flex flex-col space-y-3 items-center relative">
+            <div className="w-full flex flex-col space-y-3 items-center relative">
                 <p className="font-serif text-3xl font-bold z-10">Projects</p>
                 <p className="text-xs text-portfolio-secondary opacity-75 z-10">
                     Check out my recent work. Find more on my <a href="https://github.com/krzysztofpiotrmusial" target="_blank" rel="noreferrer" className="text-portfolio-primary underline opacity-75">GitHub</a>.

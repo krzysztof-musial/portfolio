@@ -10,7 +10,7 @@ const Thumbnail = ({ project }) => {
         >
             <div className={`absolute top-0 left-0 z-10 w-full h-full p-4 flex flex-col justify-end ${project.thumbnail.theme === 'dark' ? 'text-white' : 'text-black'}`}>
                 <p className="text-xs opacity-75">{ project.category }</p>
-                <p className="text-lg font-medium">{ project.name }</p>
+                <p className="text-lg font-medium">{ project.title }</p>
             </div>
             <div className="w-full h-full">
                 {project.thumbnail.src}

@@ -6,9 +6,20 @@ import { ReactComponent as Portfolio } from './assets/thumbnails/portfolio.svg'
 const projects = [
     {
         id: 'portfolio',
-        date: 'Julember 1, 2020',
-        name: 'Portfolio',
+        date: 'Listopad 11, 2021',
+        title: 'Portfolio',
+        subtitle: 'Moje miejsce w sieci',
         category: 'React',
+        links: [
+            {
+                name: 'GitHub',
+                url: 'https://github.com/krzysztofpiotrmusial/portfolio'
+            },
+            {
+                name: 'Website',
+                url: 'https://krzysztofmusial.com/'
+            },
+        ],
         thumbnail: {
             src: <Portfolio className="w-full h-full" />,
             alt: '',
@@ -18,7 +29,8 @@ const projects = [
     {
         id: 'wms',
         date: 'Julember 1, 2020',
-        name: 'WMS',
+        title: 'Warehouse Menagement System',
+        subtitle: 'Moje miejsce w sieci',
         category: 'Angular',
         thumbnail: {
             src: <Wms className="w-full h-full" />,
@@ -29,7 +41,8 @@ const projects = [
     {
         id: 'intern-app',
         date: 'Julember 1, 2020',
-        name: 'Intern App',
+        title: 'Intern App',
+        subtitle: 'Moje miejsce w sieci',
         category: 'Laravel',
         thumbnail: {
             src: <Internapp className="w-full h-full" />,
@@ -40,7 +53,8 @@ const projects = [
     {
         id: 'labirynt',
         date: 'Julember 1, 2020',
-        name: 'Labirynt',
+        title: 'Labirynt / Maze',
+        subtitle: 'Moje miejsce w sieci',
         category: 'Javascript',
         thumbnail: {
             src: <Labirynt className="w-full h-full" />,
