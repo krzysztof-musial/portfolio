@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
+import { projects } from '../database'
 import Orbs from '../assets/Orbs.png'
 import Thumbnail from '../components/Thumbnail'
-import { projects } from '../database'
 
 const Home = () => {
     return (
@@ -22,7 +22,7 @@ const Projects = () => {
     const [projectsList, setProjectsList] = useState([])
 
     useEffect(() => {
-        setProjectsList(projects.reverse())
+        setProjectsList(projects)
     }, [])
 
     return (

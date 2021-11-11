@@ -5,29 +5,18 @@ import { ReactComponent as Portfolio } from './assets/thumbnails/portfolio.svg'
 
 const projects = [
     {
-        id: 1,
+        id: 'portfolio',
         date: 'Julember 1, 2020',
-        name: 'Labirynt',
-        category: 'Javascript',
+        name: 'Portfolio',
+        category: 'React',
         thumbnail: {
-            src: <Labirynt className="w-full h-full" />,
+            src: <Portfolio className="w-full h-full" />,
             alt: '',
             theme: 'dark'
         }
     },
     {
-        id: 2,
-        date: 'Julember 1, 2020',
-        name: 'Intern App',
-        category: 'Laravel',
-        thumbnail: {
-            src: <Internapp className="w-full h-full" />,
-            alt: '',
-            theme: 'light'
-        }
-    },
-    {
-        id: 3,
+        id: 'wms',
         date: 'Julember 1, 2020',
         name: 'WMS',
         category: 'Angular',
@@ -38,12 +27,23 @@ const projects = [
         }
     },
     {
-        id: 4,
+        id: 'intern-app',
         date: 'Julember 1, 2020',
-        name: 'Portfolio',
-        category: 'React',
+        name: 'Intern App',
+        category: 'Laravel',
         thumbnail: {
-            src: <Portfolio className="w-full h-full" />,
+            src: <Internapp className="w-full h-full" />,
+            alt: '',
+            theme: 'light'
+        }
+    },
+    {
+        id: 'labirynt',
+        date: 'Julember 1, 2020',
+        name: 'Labirynt',
+        category: 'Javascript',
+        thumbnail: {
+            src: <Labirynt className="w-full h-full" />,
             alt: '',
             theme: 'dark'
         }
