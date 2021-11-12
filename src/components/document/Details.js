@@ -22,13 +22,15 @@ const Info = ({ project }) => {
             {project ?
                 <div className="flex flex-col items-center space-y-2 text-portfolio-primary text-center">
                     <p className="text-sm">{project.date}</p>
-                    <p className="text-3xl font-serif font-bold">{project.title}</p>
-                    <p className="opacity-75 text-lg font-light">{project.subtitle}</p>
-                    <div className="flex space-x-4 items-center pt-4">
-                        {project.links.map((link) => (
-                            <a key={link.name} href={link.url} target="_blank" rel="noreferrer" className="text-xs hover:underline">{link.name}</a>
-                        ))}
-                    </div>
+                    <p className="text-3xl font-serif font-bold text-white">{project.title}</p>
+                    <p className="opacity-75 font-light">{project.subtitle}</p>
+                    {project.links &&
+                        <div className="flex space-x-4 items-center pt-4">
+                            {project.links.map((link) => (
+                                <a key={link.name} href={link.url} target="_blank" rel="noreferrer" className="text-xs hover:underline">{link.name}</a>
+                            ))}
+                        </div>
+                    }
                 </div>
             :
                 <div>No details</div>

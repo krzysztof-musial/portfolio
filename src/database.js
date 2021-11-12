@@ -24,7 +24,8 @@ const projects = [
             src: <Portfolio className="w-full h-full" />,
             alt: '',
             theme: 'dark'
-        }
+        },
+        tags: ['HTML', 'CSS', 'JavaScript']
     },
     {
         id: 'wms',
