@@ -152,11 +152,11 @@ const projects = [
             },
             {
                 name: 'Website',
-                url: 'https://km-maze.web.app/'
+                url: 'https://km-maze.web.app/play/c7ZflXu1bKLqimT0WlFW'
             },
             {
                 name: 'Dokumentacja',
-                url: 'https://km-maze.web.app/play/c7ZflXu1bKLqimT0WlFW'
+                url: 'https://km-maze.web.app/'
             }
         ],
         thumbnail: {
